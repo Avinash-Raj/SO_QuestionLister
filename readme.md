@@ -9,7 +9,7 @@ You don't need to look at your browser screen all the time for new questions. Ju
 
 #### Example:
 
-`python so.py python`
+`$ python so.py python`
 
 #### Output:
 
