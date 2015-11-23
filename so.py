@@ -34,7 +34,7 @@ def url_extractor(url):
         return 'Incorrect Url'
 
     content = req_obj.content
-    soup = BeautifulSoup(content)
+    soup = BeautifulSoup(content, 'html.parser')
     questions_page = soup.select('#questions')
     questions = questions_page[0].select('.summary')
     final_list = []
